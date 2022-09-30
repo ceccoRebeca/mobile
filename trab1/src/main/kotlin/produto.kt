@@ -1,4 +1,7 @@
-open class Produto (var nome: String, var precoCompra: Float, var precoVenda: Float, var codigo: Int){
+open class Produto (var nome: String, var precoCompra: Float, var precoVenda: Float, var codigo: String, var quantidade: Int){
 
-    fun
+    override fun toString(): String {
+        return codigo
+    }
+
 }
