@@ -1,6 +1,15 @@
-class Colecionaveis(nome: String, precoCompra: Float, precoVenda: Float, codigo: String, quantidade: Int,
-                    var tipo: String, var materialFabricacao: String, var tamanho: Float, var relevancia: Relevancia) :
-    Produto(nome, precoCompra, precoVenda, codigo, quantidade) {
+class Colecionaveis(
+    codigo: String,
+    quantidade: Int,
+    nome: String,
+    precoCompra: Float,
+    precoVenda: Float,
+
+
+    var tipo: tipoColecionavel,
+    var materialFabricacao: materialFabricacao,
+    var tamanho: Float,
+    var relevancia: Relevancia) : Produto(codigo, quantidade, nome, precoCompra, precoVenda) {
 
     override fun toString(): String {
         return "C-" + super.toString()

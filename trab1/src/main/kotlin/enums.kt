@@ -7,5 +7,17 @@ enum class tipoRoupa{
 }
 
 enum class Relevancia{
-    C, M, R, RR
+    comum, medio, raro, rarissimo
+}
+
+enum class tipoEletronico{
+    videogame, jogo, outros
+}
+
+enum class tipoColecionavel{
+    livro, boneco, outros
+}
+
+enum class materialFabricacao{
+    papel,plastico,aco, misturado, outros
 }
