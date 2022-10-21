@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salario_nome"
+        android:id="@+id/edit_salario"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salario_descricao"
+        android:id="@+id/text_descricao_salario"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gastos_nome"
+        android:id="@+id/edit_gasto" />
+
+    <TextView
+        android:id="@+id/text_descricao_gasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gasto_descricao" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/text_resultado_do_imposto"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/resultado_imposto"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/calcular_button"
+        android:text="@string/text_button_calcular"
+        android:backgroundTint="@color/android_green" />
+
+
+</LinearLayout>
